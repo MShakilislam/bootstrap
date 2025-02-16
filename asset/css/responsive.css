@@ -1,0 +1,93 @@
+
+@media all and (max-width:990px) {
+
+}
+
+
+
+@media all and (max-width:767px) {
+
+	.menu_icon{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+		top: 70px;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		z-index: 9;
+		background: green;
+		background: rgba(0, 0, 0, .9);
+		padding: 20px;
+	}
+	.menu{
+		position: relative;
+	}
+	.menu ul li a{
+		padding: 5px 0;
+	}
+	.menu ul li a:after{
+		display: none;
+	}
+
+
+}
+
+@media all and (min-width:767px) {
+	.menu ul{
+		display: flex !important;
+	}
+	
+
+}
+
+@media all and (max-width:575px) {
+	
+	.menu_icon{
+		position: absolute;
+		top: -40px;
+		right: 0;
+	}
+	/*header banner*/
+	.banner_text h1 {
+	    font-size: 43px;
+	}
+	/*2nd menu*/
+	.working_menu ul li a {
+	    font-size: 17px;
+	    padding: 6px 12px;
+	    margin-right: 10px;
+	    
+	}
+	/*project area*/
+	.project_ara h1 {
+	    font-size: 34px;
+	}
+
+}
+
+@media all and (max-width:388px) {
+	/*header menu*/
+	.banner_text h1 {
+	    font-size: 34px;
+	}
+	/*2nd header */
+	.header_text h1 {
+	    font-size: 38px;
+	}
+	/*2nd menu bar*/
+	.working_menu ul li a {
+	    font-size: 14px;
+	    padding: 5px 10px;
+	    margin: 0;
+	}
+	/*about_heading*/
+	.about_heading h2 {
+	    font-size: 32px;
+	}
+	/*project area*/
+	.project_ara h1 {
+	    font-size: 26px;
+	}
+}

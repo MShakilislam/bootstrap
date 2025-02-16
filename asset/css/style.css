@@ -1,0 +1,491 @@
+
+/*
+Template Name : cuda
+Template :url:https://cuda.come
+Autor :Shakil
+Autor : url:https://Shakil.me
+Description : This Is Bandi Template
+*/
+@import url('../fonts/fonts.css');
+@import url('../fonts/stylesheet.css');
+@import url('../fonts');
+@import url('bootstrap.min.css');
+@import url('fontawesome.min.css');
+@import url('owl.theme.default.min.css');
+@import url('owl.carousel.min.css');
+
+
+
+h1 h2 h3 h4 h5 h6 p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+h1{
+	font-family: "Berkshire Swash", serif;
+	font-weight: 600;
+}
+h3{
+	font-family: "Berkshire Swash", serif;
+	font-weight: 600;
+}
+h2{
+	font-family: "Berkshire Swash", serif;
+	font-weight: 600;
+}
+
+a{
+	text-decoration: none;
+}
+p{
+	font-weight: 400;
+	color:#a8b9c0 ;
+	font-size: 16px;
+}
+.section_padding{
+	padding: 60px 0;
+}
+.btn_style{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 60px;
+    font-size: 18px;
+    background:#ff3150 ;
+    color: #ffc501;
+    border-radius: 18px;
+}
+
+  /**************************************************************************************************/
+ /********************************* Header area Css 1 **********************************************/
+/**************************************************************************************************/
+
+.header_area{
+	background-color: rgb(25, 40, 63);
+}
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li a{
+	display: block;
+	font-family: 'Saira ExtraCondensed';
+	font-size: 18px;
+	font-weight: 400;
+	color: #a8b9c0;
+	padding: 10px 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.menu ul li:hover a{
+	background: #33d1cc;
+	color: #fff;
+}
+.menu ul li.active a{
+	background: #33d1cc;
+	color: #fff;
+}
+.serch_box a{
+	font-size: 20px;
+	color:#33d1cc ;
+	padding: 5px 5px;
+}
+.banner_text{
+	padding-bottom: 60px;
+}
+.banner_text p{
+	padding-bottom: 30px;
+}
+.banner_text h1 {
+    color: #f0f8fb;
+    font-size: 50px;
+    padding-top: 160px;
+}
+/*menu_icon*/
+.menu_icon {
+  font-size: 27px;
+  color: #fff;
+  border: 1px solid #fff;
+  float: right;
+  padding: 0px 10px;
+  display: none;
+  border-radius: 5px;
+}
+.menu_icon:hover{
+	color: #ffda00;
+	border-color: #ffda00;
+}
+
+
+  /**************************************************************************************************/
+ /********************************* Services area Css 2*********************************************/
+/**************************************************************************************************/
+.Services_headaring{
+	padding-bottom: 60px;
+}
+.header_text{
+	border-bottom: 2px solid blue;
+}
+.header_text h1 {
+    font-size: 50px;
+    color: #1a2940;
+    padding-top: 25px;
+}
+.single_services{
+	border: 1px solid #a8b9c0;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+.service_img{
+	padding: 10px 10px;
+}
+.service_img img{
+	width: auto;
+	height: 100%;
+}
+.services_text{
+	padding: 10px 10px;
+}
+.services_text h3 {
+    color: #ffc501;
+    font-size: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #a8b9c0;
+}
+.services_text p {
+    font-size: 16px;
+    color: #a8b9c0;
+    line-height: 26px;
+}
+
+  /**************************************************************************************************/
+ /********************************* Working area Css 3 *********************************************/
+/**************************************************************************************************/
+.working_area{
+	background-color: rgb(239, 247, 250);
+}
+.working_heading h1{
+	font-size: 40px;
+	color: #1a2940;
+	padding-top: 20px;
+}
+.working_heading p{
+	font-size: 16px;
+	color: #787f82;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #78dfdd;
+}
+.working_menu{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.working_menu ul{
+	display: flex;
+	justify-content: center;
+}
+.working_menu ul li a{
+	display: block;
+	color:#787f82 ;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-right: 10px;
+	border-radius: 5px;
+	transition: .5s;
+}
+.working_menu ul li:hover a{
+	background: #ff3150;
+	color: #ffbb06;
+}
+.working_menu ul li.active a{
+	background: #ff3150;
+	color: #ffbb06;
+}
+
+/*single working*/
+.ingle_member{
+	margin: 10px 0;
+}
+.single_img{
+	overflow: hidden;
+	position: relative;
+}
+.single_img img{
+	width: 100%;
+  	margin: auto;
+  	display: block;
+}
+.overly_text{
+	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	background: #33d1cc;
+  	top: 0;
+  	left: 0;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	transition: 1s;
+  	transform: scale(0);
+}
+.overly_text h3{
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+}
+.single_img:hover .overly_text{
+	transform: scale(1);
+}
+.working_btn{
+	padding-top: 30px;
+}
+
+
+  /**************************************************************************************************/
+ /********************************* About area Css 4   *********************************************/
+/**************************************************************************************************/
+
+.about_heading h2{
+	font-size: 40px;
+	color: #1a2940;
+	padding-top: 40px;
+}
+.about_heading h5{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.about_heading p{
+	font-size: 16px;
+	color: #a8b9c0;
+	padding-bottom: 55px;
+}
+.single_about{
+	margin: 30px 0;
+}
+.single_about_text h3{
+	font-size: 35px;
+	color:#1a2940 ;
+}
+.single_about_text p{
+	font-size: 17px;
+	color: #a8b9c0;
+	padding: 30px 0;
+}
+.single_about_img img{
+	width: 100%;
+	height: auto;
+}
+
+
+  /**************************************************************************************************/
+ /********************************* Meet team area css 5********************************************/
+/**************************************************************************************************/
+
+.meet_team_area{
+	background-color: rgb(239, 247, 250);
+}
+.meet_team_heading h1{
+	font-size: 36px;
+	color: #ffc501;
+}
+.meet_team_heading p{
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+.team_man_img{
+	height: 200px;
+	width: auto;
+}
+.team_man_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.single_team_text{
+	background: #fff;
+}
+.single_team_text h3{
+	font-size: 22px;
+	background: #33d1cc;
+	color: #fff;
+	font-weight: 400;
+	padding: 15px 0;
+}
+.single_team_text p{
+	font-size: 16px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+
+  /**************************************************************************************************/
+ /********************************* Client area css 6***********************************************/
+/**************************************************************************************************/
+
+.client_area{
+	background: #010101;
+}
+
+.client-img{
+
+}
+.owl-dot{
+	margin-top: 30px !important;
+}
+.client-img img{
+	width: auto !important;
+	margin: auto;
+}
+.client-corusel .owl-dot span{
+	border-radius: 0 !important;
+	background: #fff !important;
+}
+.client-corusel .owl-dot.active span{
+	background: #f3e00a !important;
+}
+
+
+  /**************************************************************************************************/
+ /********************************* Your project area css 7*****************************************/
+/**************************************************************************************************/
+.your_project_area{
+	background-color: rgb(25, 40, 63);
+}
+.project_ara h1{
+	font-size: 36px;
+	color: #fff;
+}
+.project_ara p{
+	font-size: 16px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+  /**************************************************************************************************/
+ /********************************* Your project area css 7*****************************************/
+/**************************************************************************************************/
+.blog_heading{
+	border-bottom: 2px solid #00c6bf;
+}
+.blog_padding{
+	padding-bottom: 50px;
+}
+.blog_heading h2{
+	font-size: 35px;
+	padding-top: 30px;
+	
+}
+.blog_img img{
+	width: 100%;
+	height: auto;
+}
+.single_blog_text h3{
+	font-size: 18px;
+
+}
+.single_blog_text p{
+	padding-top: 20px;
+}
+
+
+  /**************************************************************************************************/
+ /********************************* Subscribe area css 7   *****************************************/
+/**************************************************************************************************/
+
+.subscribe_area{
+	background-color: rgb(255, 196, 0);
+}
+.subscribe h3{
+	font-size: 25px;
+	padding: 20px 0;
+}
+.subscribe form{
+	display: flex;
+	justify-content: space-between;
+	margin: 15px;
+} 
+.subscribe form input[type="email"] {
+	width: calc(100% - 120px);
+	background: rgba(255, 255, 255, .2);
+	color: #fff;
+	border: none;
+	padding: 8px 15px;
+}
+.subscribe form input[type="email"]:focus{
+	box-shadow: 0 0 10px #000;
+}
+
+.subscribe form input[type="submit"] {
+	background: #ffeb3b;
+	border: 1px solid #ffeb3b;
+	text-transform: uppercase;
+	color: #332f0c;
+	font-weight: 600;
+	width: 110px;
+	padding: 10px 0;
+	transition: 1s;
+}
+.subscribe form input[type="submit"]:hover{
+	background: #332f0c;
+	color: #ffeb3b;
+}
+
+
+  /**************************************************************************************************/
+ /************************************ Social area css 7   *****************************************/
+/**************************************************************************************************/
+
+.sociale_area{
+	background-color: rgb(25, 40, 63);
+}
+
+.sociale_text p{
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+.single_link h4{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 0;
+}
+.single_link ul{
+	list-style: none;
+}
+.single_link ul li a {
+    display: block;
+    padding: 10px 0;
+    color: #a8b9c0;
+    text-decoration: none;
+
+}
+
+.single_link p{
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+.socile_icone{
+	padding-top: 50px;
+}
+.socile_icone ul{
+	display: flex;
+}
+.socile_icone ul li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background: #347cd2;
+	text-align: center;
+	font-size: 30px;
+	line-height: 22px;
+	color: #fff;
+}
